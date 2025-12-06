@@ -10,12 +10,11 @@ bucket = custombucket
 region = customregion
 
 db_conn = connections.Connection(
-    host="thisemployee.cvyidhwdve74.us-east-1.rds.amazonaws.com",
+    host=customhost,
     port=3306,
-    user="aws_user",
-    password="haHAHAHAHAHAHAhahahahahahaha#123456",
-    db="employee_db"
-
+    user=customuser,
+    password=custompass,
+    db=customdb
 )
 output = {}
 table = 'employee'
